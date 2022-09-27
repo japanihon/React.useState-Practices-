@@ -14,8 +14,8 @@ function restaCounter() {
 
   return (
     <div>
-    
-    <h1> {counter} </h1>
+    <h1> Counter </h1>
+    <h2> {counter} </h2>
     <button
     style={{ backgroundColor: "pink", margin: 5}}
      onClick={sumaCounter} > + Counter </button>
@@ -23,6 +23,7 @@ function restaCounter() {
     <button
     style={{ backgroundColor: "pink", margin: 5}}
      onClick={restaCounter} > - Counter </button>
+     <hr/>
     </div>
   )
 }
