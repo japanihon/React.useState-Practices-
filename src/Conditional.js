@@ -1,5 +1,7 @@
 import React from 'react'
 
+// Switchea la condicion entre verdadero & falso //
+
 export default function Conditional(){
 
 const [condition, setCondition] = React.useState(true)

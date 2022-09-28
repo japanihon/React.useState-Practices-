@@ -1,5 +1,7 @@
 import React from 'react'
 
+// Clasico contador usando useState //
+
 export default function Counter() {
 
 const [counter, setCounter] = React.useState(0)
